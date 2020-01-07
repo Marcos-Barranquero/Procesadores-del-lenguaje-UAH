@@ -1,0 +1,1 @@
+call java -Dfile.encoding=UTF-8 Main ".\PL3-lenguaje.prog" "main" "resultado.html"
