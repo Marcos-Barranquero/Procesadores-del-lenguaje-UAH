@@ -1,0 +1,608 @@
+File: .\PL3-lenguaje.prog
+
+/prog
+/prog/newline
+/prog/newline
+/prog/def_func
+/prog/def_func/func_kw: "function"
+/prog/def_func/identifier: "prueba"
+/prog/def_func/op_par: "("
+/prog/def_func/cl_par: ")"
+/prog/def_func/colon: ":"
+/prog/def_func/as_type
+/prog/def_func/as_type/type_void: "void"
+/prog/def_func/newline
+/prog/def_func/block_start: "begin"
+/prog/def_func/basic_func
+/prog/def_func/basic_func/if_op
+/prog/def_func/basic_func/if_op/if_kw: "if"
+/prog/def_func/basic_func/if_op/op_par: "("
+/prog/def_func/basic_func/if_op/logic_expr
+/prog/def_func/basic_func/if_op/logic_expr/boolean_n: "false"
+/prog/def_func/basic_func/if_op/cl_par: ")"
+/prog/def_func/basic_func/if_op/then_kw: "then"
+/prog/def_func/basic_func/if_op/expr_total
+/prog/def_func/basic_func/if_op/expr_total/expr_content
+/prog/def_func/basic_func/if_op/expr_total/expr_content/func_call
+/prog/def_func/basic_func/if_op/expr_total/expr_content/func_call/func_id
+/prog/def_func/basic_func/if_op/expr_total/expr_content/func_call/func_id/identifier: "imprimir"
+/prog/def_func/basic_func/if_op/expr_total/expr_content/func_call/op_par: "("
+/prog/def_func/basic_func/if_op/expr_total/expr_content/func_call/expr_content
+/prog/def_func/basic_func/if_op/expr_total/expr_content/func_call/expr_content/value
+/prog/def_func/basic_func/if_op/expr_total/expr_content/func_call/expr_content/value/string: ""verdad""
+/prog/def_func/basic_func/if_op/expr_total/expr_content/func_call/cl_par: ")"
+/prog/def_func/basic_func/if_op/expr_total/semi_colon: ";"
+/prog/def_func/basic_func/if_op/else_op
+/prog/def_func/basic_func/if_op/else_op/else_kw: "else"
+/prog/def_func/basic_func/if_op/else_op/expr_total
+/prog/def_func/basic_func/if_op/else_op/expr_total/expr_content
+/prog/def_func/basic_func/if_op/else_op/expr_total/expr_content/func_call
+/prog/def_func/basic_func/if_op/else_op/expr_total/expr_content/func_call/func_id
+/prog/def_func/basic_func/if_op/else_op/expr_total/expr_content/func_call/func_id/identifier: "imprimir"
+/prog/def_func/basic_func/if_op/else_op/expr_total/expr_content/func_call/op_par: "("
+/prog/def_func/basic_func/if_op/else_op/expr_total/expr_content/func_call/expr_content
+/prog/def_func/basic_func/if_op/else_op/expr_total/expr_content/func_call/expr_content/value
+/prog/def_func/basic_func/if_op/else_op/expr_total/expr_content/func_call/expr_content/value/string: ""falso""
+/prog/def_func/basic_func/if_op/else_op/expr_total/expr_content/func_call/cl_par: ")"
+/prog/def_func/basic_func/if_op/else_op/expr_total/semi_colon: ";"
+/prog/def_func/basic_func/if_op/else_op/if_end: "endif"
+/prog/def_func/basic_func
+/prog/def_func/basic_func/if_op
+/prog/def_func/basic_func/if_op/if_kw: "if"
+/prog/def_func/basic_func/if_op/op_par: "("
+/prog/def_func/basic_func/if_op/logic_expr
+/prog/def_func/basic_func/if_op/logic_expr/boolean_n: "true"
+/prog/def_func/basic_func/if_op/cl_par: ")"
+/prog/def_func/basic_func/if_op/then_kw: "then"
+/prog/def_func/basic_func/if_op/expr_total
+/prog/def_func/basic_func/if_op/expr_total/expr_content
+/prog/def_func/basic_func/if_op/expr_total/expr_content/func_call
+/prog/def_func/basic_func/if_op/expr_total/expr_content/func_call/func_id
+/prog/def_func/basic_func/if_op/expr_total/expr_content/func_call/func_id/identifier: "imprimir"
+/prog/def_func/basic_func/if_op/expr_total/expr_content/func_call/op_par: "("
+/prog/def_func/basic_func/if_op/expr_total/expr_content/func_call/expr_content
+/prog/def_func/basic_func/if_op/expr_total/expr_content/func_call/expr_content/value
+/prog/def_func/basic_func/if_op/expr_total/expr_content/func_call/expr_content/value/string: ""verdad""
+/prog/def_func/basic_func/if_op/expr_total/expr_content/func_call/cl_par: ")"
+/prog/def_func/basic_func/if_op/expr_total/semi_colon: ";"
+/prog/def_func/basic_func/if_op/expr_total
+/prog/def_func/basic_func/if_op/expr_total/expr_content
+/prog/def_func/basic_func/if_op/expr_total/expr_content/func_call
+/prog/def_func/basic_func/if_op/expr_total/expr_content/func_call/func_id
+/prog/def_func/basic_func/if_op/expr_total/expr_content/func_call/func_id/identifier: "imprimir"
+/prog/def_func/basic_func/if_op/expr_total/expr_content/func_call/op_par: "("
+/prog/def_func/basic_func/if_op/expr_total/expr_content/func_call/expr_content
+/prog/def_func/basic_func/if_op/expr_total/expr_content/func_call/expr_content/value
+/prog/def_func/basic_func/if_op/expr_total/expr_content/func_call/expr_content/value/string: ""verdadera""
+/prog/def_func/basic_func/if_op/expr_total/expr_content/func_call/cl_par: ")"
+/prog/def_func/basic_func/if_op/expr_total/semi_colon: ";"
+/prog/def_func/basic_func/if_op/if_end: "endif"
+/prog/def_func/basic_func
+/prog/def_func/basic_func/while_op
+/prog/def_func/basic_func/while_op/while_kw: "while"
+/prog/def_func/basic_func/while_op/op_par: "("
+/prog/def_func/basic_func/while_op/logic_expr
+/prog/def_func/basic_func/while_op/logic_expr/expr_content
+/prog/def_func/basic_func/while_op/logic_expr/expr_content/value
+/prog/def_func/basic_func/while_op/logic_expr/expr_content/value/number
+/prog/def_func/basic_func/while_op/logic_expr/expr_content/value/number/int_n: "1"
+/prog/def_func/basic_func/while_op/logic_expr/greater: ">"
+/prog/def_func/basic_func/while_op/logic_expr/expr_content
+/prog/def_func/basic_func/while_op/logic_expr/expr_content/value
+/prog/def_func/basic_func/while_op/logic_expr/expr_content/value/number
+/prog/def_func/basic_func/while_op/logic_expr/expr_content/value/number/int_n: "2"
+/prog/def_func/basic_func/while_op/logic_expr/and: "&&"
+/prog/def_func/basic_func/while_op/logic_expr/logic_expr
+/prog/def_func/basic_func/while_op/logic_expr/logic_expr/expr_content
+/prog/def_func/basic_func/while_op/logic_expr/logic_expr/expr_content/value
+/prog/def_func/basic_func/while_op/logic_expr/logic_expr/expr_content/value/number
+/prog/def_func/basic_func/while_op/logic_expr/logic_expr/expr_content/value/number/int_n: "2"
+/prog/def_func/basic_func/while_op/logic_expr/logic_expr/lesser: "<"
+/prog/def_func/basic_func/while_op/logic_expr/logic_expr/expr_content
+/prog/def_func/basic_func/while_op/logic_expr/logic_expr/expr_content/value
+/prog/def_func/basic_func/while_op/logic_expr/logic_expr/expr_content/value/number
+/prog/def_func/basic_func/while_op/logic_expr/logic_expr/expr_content/value/number/int_n: "1"
+/prog/def_func/basic_func/while_op/cl_par: ")"
+/prog/def_func/basic_func/while_op/expr_total
+/prog/def_func/basic_func/while_op/expr_total/expr_content
+/prog/def_func/basic_func/while_op/expr_total/expr_content/func_call
+/prog/def_func/basic_func/while_op/expr_total/expr_content/func_call/func_id
+/prog/def_func/basic_func/while_op/expr_total/expr_content/func_call/func_id/identifier: "hazAlgo"
+/prog/def_func/basic_func/while_op/expr_total/expr_content/func_call/op_par: "("
+/prog/def_func/basic_func/while_op/expr_total/expr_content/func_call/cl_par: ")"
+/prog/def_func/basic_func/while_op/expr_total/semi_colon: ";"
+/prog/def_func/basic_func
+/prog/def_func/basic_func/while_op
+/prog/def_func/basic_func/while_op/while_kw: "while"
+/prog/def_func/basic_func/while_op/op_par: "("
+/prog/def_func/basic_func/while_op/logic_expr
+/prog/def_func/basic_func/while_op/logic_expr/expr_content
+/prog/def_func/basic_func/while_op/logic_expr/expr_content/value
+/prog/def_func/basic_func/while_op/logic_expr/expr_content/value/number
+/prog/def_func/basic_func/while_op/logic_expr/expr_content/value/number/int_n: "1"
+/prog/def_func/basic_func/while_op/logic_expr/greater: ">"
+/prog/def_func/basic_func/while_op/logic_expr/expr_content
+/prog/def_func/basic_func/while_op/logic_expr/expr_content/value
+/prog/def_func/basic_func/while_op/logic_expr/expr_content/value/number
+/prog/def_func/basic_func/while_op/logic_expr/expr_content/value/number/int_n: "2"
+/prog/def_func/basic_func/while_op/logic_expr/or: "||"
+/prog/def_func/basic_func/while_op/logic_expr/logic_expr
+/prog/def_func/basic_func/while_op/logic_expr/logic_expr/expr_content
+/prog/def_func/basic_func/while_op/logic_expr/logic_expr/expr_content/value
+/prog/def_func/basic_func/while_op/logic_expr/logic_expr/expr_content/value/number
+/prog/def_func/basic_func/while_op/logic_expr/logic_expr/expr_content/value/number/int_n: "1"
+/prog/def_func/basic_func/while_op/logic_expr/logic_expr/lesser: "<"
+/prog/def_func/basic_func/while_op/logic_expr/logic_expr/expr_content
+/prog/def_func/basic_func/while_op/logic_expr/logic_expr/expr_content/value
+/prog/def_func/basic_func/while_op/logic_expr/logic_expr/expr_content/value/number
+/prog/def_func/basic_func/while_op/logic_expr/logic_expr/expr_content/value/number/int_n: "2"
+/prog/def_func/basic_func/while_op/logic_expr/logic_expr/and: "&&"
+/prog/def_func/basic_func/while_op/logic_expr/logic_expr/logic_expr
+/prog/def_func/basic_func/while_op/logic_expr/logic_expr/logic_expr/not: "!"
+/prog/def_func/basic_func/while_op/logic_expr/logic_expr/logic_expr/boolean_n: "true"
+/prog/def_func/basic_func/while_op/cl_par: ")"
+/prog/def_func/basic_func/while_op/block_start: "begin"
+/prog/def_func/basic_func/while_op/expr_total
+/prog/def_func/basic_func/while_op/expr_total/expr_content
+/prog/def_func/basic_func/while_op/expr_total/expr_content/func_call
+/prog/def_func/basic_func/while_op/expr_total/expr_content/func_call/func_id
+/prog/def_func/basic_func/while_op/expr_total/expr_content/func_call/func_id/identifier: "hazAlgo"
+/prog/def_func/basic_func/while_op/expr_total/expr_content/func_call/op_par: "("
+/prog/def_func/basic_func/while_op/expr_total/expr_content/func_call/cl_par: ")"
+/prog/def_func/basic_func/while_op/expr_total/semi_colon: ";"
+/prog/def_func/basic_func/while_op/block_end: "end"
+/prog/def_func/def_var
+/prog/def_func/def_var/as_type
+/prog/def_func/def_var/as_type/as_var_type
+/prog/def_func/def_var/as_type/as_var_type/type_number: "numero"
+/prog/def_func/def_var/var_definition
+/prog/def_func/def_var/var_definition/identifier: "beginer"
+/prog/def_func/def_var/comma: ","
+/prog/def_func/def_var/var_definition
+/prog/def_func/def_var/var_definition/identifier: "ender"
+/prog/def_func/def_var/comma: ","
+/prog/def_func/def_var/var_definition
+/prog/def_func/def_var/var_definition/identifier: "paso"
+/prog/def_func/def_var/semi_colon: ";"
+/prog/def_func/assign_sc
+/prog/def_func/assign_sc/assign
+/prog/def_func/assign_sc/assign/identifier: "beginer"
+/prog/def_func/assign_sc/assign/assign_value: ":="
+/prog/def_func/assign_sc/assign/expr_content
+/prog/def_func/assign_sc/assign/expr_content/value
+/prog/def_func/assign_sc/assign/expr_content/value/number
+/prog/def_func/assign_sc/assign/expr_content/value/number/int_n: "1"
+/prog/def_func/assign_sc/semi_colon: ";"
+/prog/def_func/assign_sc
+/prog/def_func/assign_sc/assign
+/prog/def_func/assign_sc/assign/identifier: "ender"
+/prog/def_func/assign_sc/assign/assign_value: ":="
+/prog/def_func/assign_sc/assign/expr_content
+/prog/def_func/assign_sc/assign/expr_content/value
+/prog/def_func/assign_sc/assign/expr_content/value/number
+/prog/def_func/assign_sc/assign/expr_content/value/number/int_n: "333"
+/prog/def_func/assign_sc/semi_colon: ";"
+/prog/def_func/assign_sc
+/prog/def_func/assign_sc/assign
+/prog/def_func/assign_sc/assign/identifier: "paso"
+/prog/def_func/assign_sc/assign/assign_value: ":="
+/prog/def_func/assign_sc/assign/expr_content
+/prog/def_func/assign_sc/assign/expr_content/value
+/prog/def_func/assign_sc/assign/expr_content/value/number
+/prog/def_func/assign_sc/assign/expr_content/value/number/int_n: "10"
+/prog/def_func/assign_sc/semi_colon: ";"
+/prog/def_func/basic_func
+/prog/def_func/basic_func/for_op
+/prog/def_func/basic_func/for_op/for_kw: "for"
+/prog/def_func/basic_func/for_op/identifier: "case"
+/prog/def_func/basic_func/for_op/from_kw: "from"
+/prog/def_func/basic_func/for_op/int_n: "30"
+/prog/def_func/basic_func/for_op/to_kw: "to"
+/prog/def_func/basic_func/for_op/int_n: "1"
+/prog/def_func/basic_func/for_op/step_op
+/prog/def_func/basic_func/for_op/step_op/step_kw: "step"
+/prog/def_func/basic_func/for_op/step_op/int_n: "-1"
+/prog/def_func/basic_func/for_op/do_start: "do"
+/prog/def_func/basic_func/for_op/block_start: "begin"
+/prog/def_func/basic_func/for_op/basic_func
+/prog/def_func/basic_func/for_op/basic_func/for_op
+/prog/def_func/basic_func/for_op/basic_func/for_op/for_kw: "for"
+/prog/def_func/basic_func/for_op/basic_func/for_op/identifier: "caso"
+/prog/def_func/basic_func/for_op/basic_func/for_op/from_kw: "from"
+/prog/def_func/basic_func/for_op/basic_func/for_op/identifier: "beginer"
+/prog/def_func/basic_func/for_op/basic_func/for_op/to_kw: "to"
+/prog/def_func/basic_func/for_op/basic_func/for_op/int_n: "45"
+/prog/def_func/basic_func/for_op/basic_func/for_op/do_start: "do"
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/for_kw: "for"
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/identifier: "casa"
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/from_kw: "from"
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/int_n: "43"
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/to_kw: "to"
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/identifier: "ender"
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/step_op
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/step_op/step_kw: "step"
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/step_op/identifier: "paso"
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/do_start: "do"
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func/while_op
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func/while_op/while_kw: "while"
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func/while_op/op_par: "("
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func/while_op/logic_expr
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func/while_op/logic_expr/expr_content
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func/while_op/logic_expr/expr_content/var_id
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func/while_op/logic_expr/expr_content/var_id/identifier: "casa"
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func/while_op/logic_expr/lesser: "<"
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func/while_op/logic_expr/expr_content
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func/while_op/logic_expr/expr_content/value
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func/while_op/logic_expr/expr_content/value/number
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func/while_op/logic_expr/expr_content/value/number/int_n: "50"
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func/while_op/cl_par: ")"
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func/while_op/expr_total
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func/while_op/expr_total/expr_content
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func/while_op/expr_total/expr_content/func_call
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func/while_op/expr_total/expr_content/func_call/func_id
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func/while_op/expr_total/expr_content/func_call/func_id/identifier: "imprimir"
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func/while_op/expr_total/expr_content/func_call/op_par: "("
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func/while_op/expr_total/expr_content/func_call/expr_content
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func/while_op/expr_total/expr_content/func_call/expr_content/value
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func/while_op/expr_total/expr_content/func_call/expr_content/value/string: ""casa menor que 50""
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func/while_op/expr_total/expr_content/func_call/cl_par: ")"
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/basic_func/while_op/expr_total/semi_colon: ";"
+/prog/def_func/basic_func/for_op/basic_func/for_op/basic_func/for_op/do_end: "enddo"
+/prog/def_func/basic_func/for_op/basic_func/for_op/do_end: "enddo"
+/prog/def_func/basic_func/for_op/basic_func/for_op/block_end: "end"
+/prog/def_func/basic_func/for_op/do_end: "enddo"
+/prog/def_func/assign_sc
+/prog/def_func/assign_sc/assign
+/prog/def_func/assign_sc/assign/identifier: "forty"
+/prog/def_func/assign_sc/assign/assign_value: ":="
+/prog/def_func/assign_sc/assign/expr_content
+/prog/def_func/assign_sc/assign/expr_content/value
+/prog/def_func/assign_sc/assign/expr_content/value/number
+/prog/def_func/assign_sc/assign/expr_content/value/number/int_n: "40"
+/prog/def_func/assign_sc/semi_colon: ";"
+/prog/def_func/def_var
+/prog/def_func/def_var/as_type
+/prog/def_func/def_var/as_type/as_var_type
+/prog/def_func/def_var/as_type/as_var_type/type_number: "numero"
+/prog/def_func/def_var/var_definition
+/prog/def_func/def_var/var_definition/identifier: "descriptorFichero"
+/prog/def_func/def_var/semi_colon: ";"
+/prog/def_func/def_var
+/prog/def_func/def_var/as_type
+/prog/def_func/def_var/as_type/as_var_type
+/prog/def_func/def_var/as_type/as_var_type/type_string: "cadena"
+/prog/def_func/def_var/assign
+/prog/def_func/def_var/assign/identifier: "nombreFichero"
+/prog/def_func/def_var/assign/assign_value: ":="
+/prog/def_func/def_var/assign/expr_content
+/prog/def_func/def_var/assign/expr_content/value
+/prog/def_func/def_var/assign/expr_content/value/string: ""c:\temporal\fichero.txt""
+/prog/def_func/def_var/semi_colon: ";"
+/prog/def_func/assign_sc
+/prog/def_func/assign_sc/assign
+/prog/def_func/assign_sc/assign/identifier: "descriptorFichero"
+/prog/def_func/assign_sc/assign/assign_value: ":="
+/prog/def_func/assign_sc/assign/expr_content
+/prog/def_func/assign_sc/assign/expr_content/func_call
+/prog/def_func/assign_sc/assign/expr_content/func_call/func_id
+/prog/def_func/assign_sc/assign/expr_content/func_call/func_id/identifier: "fopen"
+/prog/def_func/assign_sc/assign/expr_content/func_call/op_par: "("
+/prog/def_func/assign_sc/assign/expr_content/func_call/expr_content
+/prog/def_func/assign_sc/assign/expr_content/func_call/expr_content/var_id
+/prog/def_func/assign_sc/assign/expr_content/func_call/expr_content/var_id/identifier: "nombreFichero"
+/prog/def_func/assign_sc/assign/expr_content/func_call/cl_par: ")"
+/prog/def_func/assign_sc/semi_colon: ";"
+/prog/def_func/expr_total
+/prog/def_func/expr_total/expr_content
+/prog/def_func/expr_total/expr_content/func_call
+/prog/def_func/expr_total/expr_content/func_call/func_id
+/prog/def_func/expr_total/expr_content/func_call/func_id/identifier: "fwrite"
+/prog/def_func/expr_total/expr_content/func_call/op_par: "("
+/prog/def_func/expr_total/expr_content/func_call/expr_content
+/prog/def_func/expr_total/expr_content/func_call/expr_content/var_id
+/prog/def_func/expr_total/expr_content/func_call/expr_content/var_id/identifier: "descriptorFichero"
+/prog/def_func/expr_total/expr_content/func_call/comma: ","
+/prog/def_func/expr_total/expr_content/func_call/expr_content
+/prog/def_func/expr_total/expr_content/func_call/expr_content/expr_content
+/prog/def_func/expr_total/expr_content/func_call/expr_content/expr_content/value
+/prog/def_func/expr_total/expr_content/func_call/expr_content/expr_content/value/string: ""Este es el fichero ""
+/prog/def_func/expr_total/expr_content/func_call/expr_content/add: "+"
+/prog/def_func/expr_total/expr_content/func_call/expr_content/expr_content
+/prog/def_func/expr_total/expr_content/func_call/expr_content/expr_content/var_id
+/prog/def_func/expr_total/expr_content/func_call/expr_content/expr_content/var_id/identifier: "nombreFichero"
+/prog/def_func/expr_total/expr_content/func_call/cl_par: ")"
+/prog/def_func/expr_total/semi_colon: ";"
+/prog/def_func/expr_total
+/prog/def_func/expr_total/expr_content
+/prog/def_func/expr_total/expr_content/func_call
+/prog/def_func/expr_total/expr_content/func_call/func_id
+/prog/def_func/expr_total/expr_content/func_call/func_id/identifier: "fclose"
+/prog/def_func/expr_total/expr_content/func_call/op_par: "("
+/prog/def_func/expr_total/expr_content/func_call/expr_content
+/prog/def_func/expr_total/expr_content/func_call/expr_content/var_id
+/prog/def_func/expr_total/expr_content/func_call/expr_content/var_id/identifier: "descriptorFichero"
+/prog/def_func/expr_total/expr_content/func_call/cl_par: ")"
+/prog/def_func/expr_total/semi_colon: ";"
+/prog/def_func/assign_sc
+/prog/def_func/assign_sc/assign
+/prog/def_func/assign_sc/assign/identifier: "descriptorFichero"
+/prog/def_func/assign_sc/assign/assign_value: ":="
+/prog/def_func/assign_sc/assign/expr_content
+/prog/def_func/assign_sc/assign/expr_content/func_call
+/prog/def_func/assign_sc/assign/expr_content/func_call/func_id
+/prog/def_func/assign_sc/assign/expr_content/func_call/func_id/identifier: "fopen"
+/prog/def_func/assign_sc/assign/expr_content/func_call/op_par: "("
+/prog/def_func/assign_sc/assign/expr_content/func_call/expr_content
+/prog/def_func/assign_sc/assign/expr_content/func_call/expr_content/var_id
+/prog/def_func/assign_sc/assign/expr_content/func_call/expr_content/var_id/identifier: "nombreFichero"
+/prog/def_func/assign_sc/assign/expr_content/func_call/cl_par: ")"
+/prog/def_func/assign_sc/semi_colon: ";"
+/prog/def_func/def_var
+/prog/def_func/def_var/as_type
+/prog/def_func/def_var/as_type/as_var_type
+/prog/def_func/def_var/as_type/as_var_type/type_string: "cadena"
+/prog/def_func/def_var/assign
+/prog/def_func/def_var/assign/identifier: "contenidoFichero"
+/prog/def_func/def_var/assign/assign_value: ":="
+/prog/def_func/def_var/assign/expr_content
+/prog/def_func/def_var/assign/expr_content/func_call
+/prog/def_func/def_var/assign/expr_content/func_call/func_id
+/prog/def_func/def_var/assign/expr_content/func_call/func_id/identifier: "freadAll"
+/prog/def_func/def_var/assign/expr_content/func_call/op_par: "("
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/var_id
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/var_id/identifier: "descriptorFichero"
+/prog/def_func/def_var/assign/expr_content/func_call/cl_par: ")"
+/prog/def_func/def_var/semi_colon: ";"
+/prog/def_func/expr_total
+/prog/def_func/expr_total/expr_content
+/prog/def_func/expr_total/expr_content/func_call
+/prog/def_func/expr_total/expr_content/func_call/func_id
+/prog/def_func/expr_total/expr_content/func_call/func_id/identifier: "print"
+/prog/def_func/expr_total/expr_content/func_call/op_par: "("
+/prog/def_func/expr_total/expr_content/func_call/expr_content
+/prog/def_func/expr_total/expr_content/func_call/expr_content/expr_content
+/prog/def_func/expr_total/expr_content/func_call/expr_content/expr_content/value
+/prog/def_func/expr_total/expr_content/func_call/expr_content/expr_content/value/string: ""El fichero contiene: ""
+/prog/def_func/expr_total/expr_content/func_call/expr_content/add: "+"
+/prog/def_func/expr_total/expr_content/func_call/expr_content/expr_content
+/prog/def_func/expr_total/expr_content/func_call/expr_content/expr_content/var_id
+/prog/def_func/expr_total/expr_content/func_call/expr_content/expr_content/var_id/identifier: "contenidoFichero"
+/prog/def_func/expr_total/expr_content/func_call/cl_par: ")"
+/prog/def_func/expr_total/semi_colon: ";"
+/prog/def_func/expr_total
+/prog/def_func/expr_total/expr_content
+/prog/def_func/expr_total/expr_content/func_call
+/prog/def_func/expr_total/expr_content/func_call/func_id
+/prog/def_func/expr_total/expr_content/func_call/func_id/identifier: "fclose"
+/prog/def_func/expr_total/expr_content/func_call/op_par: "("
+/prog/def_func/expr_total/expr_content/func_call/expr_content
+/prog/def_func/expr_total/expr_content/func_call/expr_content/var_id
+/prog/def_func/expr_total/expr_content/func_call/expr_content/var_id/identifier: "descriptorFichero"
+/prog/def_func/expr_total/expr_content/func_call/cl_par: ")"
+/prog/def_func/expr_total/semi_colon: ";"
+/prog/def_func/def_var
+/prog/def_func/def_var/as_type
+/prog/def_func/def_var/as_type/as_var_type
+/prog/def_func/def_var/as_type/as_var_type/type_string: "cadena"
+/prog/def_func/def_var/assign
+/prog/def_func/def_var/assign/identifier: "ejemplo"
+/prog/def_func/def_var/assign/assign_value: ":="
+/prog/def_func/def_var/assign/expr_content
+/prog/def_func/def_var/assign/expr_content/value
+/prog/def_func/def_var/assign/expr_content/value/string: ""Esta es la cadena de ejemplo""
+/prog/def_func/def_var/semi_colon: ";"
+/prog/def_func/def_var
+/prog/def_func/def_var/as_type
+/prog/def_func/def_var/as_type/as_var_type
+/prog/def_func/def_var/as_type/as_var_type/type_number: "numero"
+/prog/def_func/def_var/var_definition
+/prog/def_func/def_var/var_definition/identifier: "posicion"
+/prog/def_func/def_var/semi_colon: ";"
+/prog/def_func/assign_sc
+/prog/def_func/assign_sc/assign
+/prog/def_func/assign_sc/assign/identifier: "posicion"
+/prog/def_func/assign_sc/assign/assign_value: ":="
+/prog/def_func/assign_sc/assign/expr_content
+/prog/def_func/assign_sc/assign/expr_content/func_call
+/prog/def_func/assign_sc/assign/expr_content/func_call/func_id
+/prog/def_func/assign_sc/assign/expr_content/func_call/func_id/identifier: "cadenaDonde"
+/prog/def_func/assign_sc/assign/expr_content/func_call/op_par: "("
+/prog/def_func/assign_sc/assign/expr_content/func_call/expr_content
+/prog/def_func/assign_sc/assign/expr_content/func_call/expr_content/var_id
+/prog/def_func/assign_sc/assign/expr_content/func_call/expr_content/var_id/identifier: "ejemplo"
+/prog/def_func/assign_sc/assign/expr_content/func_call/comma: ","
+/prog/def_func/assign_sc/assign/expr_content/func_call/expr_content
+/prog/def_func/assign_sc/assign/expr_content/func_call/expr_content/value
+/prog/def_func/assign_sc/assign/expr_content/func_call/expr_content/value/string: ""cadena""
+/prog/def_func/assign_sc/assign/expr_content/func_call/cl_par: ")"
+/prog/def_func/assign_sc/semi_colon: ";"
+/prog/def_func/def_var
+/prog/def_func/def_var/as_type
+/prog/def_func/def_var/as_type/as_var_type
+/prog/def_func/def_var/as_type/as_var_type/type_string: "cadena"
+/prog/def_func/def_var/assign
+/prog/def_func/def_var/assign/identifier: "cadenaConEspacios"
+/prog/def_func/def_var/assign/assign_value: ":="
+/prog/def_func/def_var/assign/expr_content
+/prog/def_func/def_var/assign/expr_content/value
+/prog/def_func/def_var/assign/expr_content/value/string: ""   Esto tiene espacios  ""
+/prog/def_func/def_var/semi_colon: ";"
+/prog/def_func/def_var
+/prog/def_func/def_var/as_type
+/prog/def_func/def_var/as_type/as_var_type
+/prog/def_func/def_var/as_type/as_var_type/type_string: "cadena"
+/prog/def_func/def_var/assign
+/prog/def_func/def_var/assign/identifier: "cadenaSinEspacios"
+/prog/def_func/def_var/assign/assign_value: ":="
+/prog/def_func/def_var/assign/expr_content
+/prog/def_func/def_var/assign/expr_content/func_call
+/prog/def_func/def_var/assign/expr_content/func_call/func_id
+/prog/def_func/def_var/assign/expr_content/func_call/func_id/identifier: "cadenaSinEspacios"
+/prog/def_func/def_var/assign/expr_content/func_call/op_par: "("
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/var_id
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/var_id/identifier: "cadenaConEspacios"
+/prog/def_func/def_var/assign/expr_content/func_call/cl_par: ")"
+/prog/def_func/def_var/semi_colon: ";"
+/prog/def_func/def_var
+/prog/def_func/def_var/as_type
+/prog/def_func/def_var/as_type/as_var_type
+/prog/def_func/def_var/as_type/as_var_type/type_string: "cadena"
+/prog/def_func/def_var/assign
+/prog/def_func/def_var/assign/identifier: "cadenaASustituir"
+/prog/def_func/def_var/assign/assign_value: ":="
+/prog/def_func/def_var/assign/expr_content
+/prog/def_func/def_var/assign/expr_content/value
+/prog/def_func/def_var/assign/expr_content/value/string: ""Voy a cambiar esta cadena""
+/prog/def_func/def_var/semi_colon: ";"
+/prog/def_func/def_var
+/prog/def_func/def_var/as_type
+/prog/def_func/def_var/as_type/as_var_type
+/prog/def_func/def_var/as_type/as_var_type/type_string: "cadena"
+/prog/def_func/def_var/assign
+/prog/def_func/def_var/assign/identifier: "cadenaCambiada"
+/prog/def_func/def_var/assign/assign_value: ":="
+/prog/def_func/def_var/assign/expr_content
+/prog/def_func/def_var/assign/expr_content/func_call
+/prog/def_func/def_var/assign/expr_content/func_call/func_id
+/prog/def_func/def_var/assign/expr_content/func_call/func_id/identifier: "cadenaSustituida"
+/prog/def_func/def_var/assign/expr_content/func_call/op_par: "("
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/var_id
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/var_id/identifier: "cadenaASustituir"
+/prog/def_func/def_var/assign/expr_content/func_call/comma: ","
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/value
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/value/string: ""cambiar""
+/prog/def_func/def_var/assign/expr_content/func_call/comma: ","
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/value
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/value/string: ""mantener""
+/prog/def_func/def_var/assign/expr_content/func_call/cl_par: ")"
+/prog/def_func/def_var/semi_colon: ";"
+/prog/def_func/def_var
+/prog/def_func/def_var/as_type
+/prog/def_func/def_var/as_type/as_var_type
+/prog/def_func/def_var/as_type/as_var_type/type_string: "cadena"
+/prog/def_func/def_var/assign
+/prog/def_func/def_var/assign/identifier: "cadenaACortar"
+/prog/def_func/def_var/assign/assign_value: ":="
+/prog/def_func/def_var/assign/expr_content
+/prog/def_func/def_var/assign/expr_content/value
+/prog/def_func/def_var/assign/expr_content/value/string: ""vamos a cortar | en un punto de la cadena""
+/prog/def_func/def_var/semi_colon: ";"
+/prog/def_func/def_var
+/prog/def_func/def_var/as_type
+/prog/def_func/def_var/as_type/as_var_type
+/prog/def_func/def_var/as_type/as_var_type/type_string: "cadena"
+/prog/def_func/def_var/assign
+/prog/def_func/def_var/assign/identifier: "cadenaI"
+/prog/def_func/def_var/assign/assign_value: ":="
+/prog/def_func/def_var/assign/expr_content
+/prog/def_func/def_var/assign/expr_content/func_call
+/prog/def_func/def_var/assign/expr_content/func_call/func_id
+/prog/def_func/def_var/assign/expr_content/func_call/func_id/identifier: "cadenaIzquierda"
+/prog/def_func/def_var/assign/expr_content/func_call/op_par: "("
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/var_id
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/var_id/identifier: "cadenaACortar"
+/prog/def_func/def_var/assign/expr_content/func_call/comma: ","
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/value
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/value/number
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/value/number/int_n: "14"
+/prog/def_func/def_var/assign/expr_content/func_call/cl_par: ")"
+/prog/def_func/def_var/semi_colon: ";"
+/prog/def_func/def_var
+/prog/def_func/def_var/as_type
+/prog/def_func/def_var/as_type/as_var_type
+/prog/def_func/def_var/as_type/as_var_type/type_string: "cadena"
+/prog/def_func/def_var/assign
+/prog/def_func/def_var/assign/identifier: "cadenaD"
+/prog/def_func/def_var/assign/assign_value: ":="
+/prog/def_func/def_var/assign/expr_content
+/prog/def_func/def_var/assign/expr_content/func_call
+/prog/def_func/def_var/assign/expr_content/func_call/func_id
+/prog/def_func/def_var/assign/expr_content/func_call/func_id/identifier: "cadenaDerecha"
+/prog/def_func/def_var/assign/expr_content/func_call/op_par: "("
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/var_id
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/var_id/identifier: "cadenaACortar"
+/prog/def_func/def_var/assign/expr_content/func_call/comma: ","
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/value
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/value/number
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/value/number/int_n: "16"
+/prog/def_func/def_var/assign/expr_content/func_call/cl_par: ")"
+/prog/def_func/def_var/semi_colon: ";"
+/prog/def_func/def_var
+/prog/def_func/def_var/as_type
+/prog/def_func/def_var/as_type/as_var_type
+/prog/def_func/def_var/as_type/as_var_type/type_string: "cadena"
+/prog/def_func/def_var/assign
+/prog/def_func/def_var/assign/identifier: "cadenaC"
+/prog/def_func/def_var/assign/assign_value: ":="
+/prog/def_func/def_var/assign/expr_content
+/prog/def_func/def_var/assign/expr_content/func_call
+/prog/def_func/def_var/assign/expr_content/func_call/func_id
+/prog/def_func/def_var/assign/expr_content/func_call/func_id/identifier: "cadenaDentro"
+/prog/def_func/def_var/assign/expr_content/func_call/op_par: "("
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/var_id
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/var_id/identifier: "cadenaACortar"
+/prog/def_func/def_var/assign/expr_content/func_call/comma: ","
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/value
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/value/number
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/value/number/int_n: "15"
+/prog/def_func/def_var/assign/expr_content/func_call/comma: ","
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/value
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/value/number
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/value/number/int_n: "1"
+/prog/def_func/def_var/assign/expr_content/func_call/cl_par: ")"
+/prog/def_func/def_var/semi_colon: ";"
+/prog/def_func/def_var
+/prog/def_func/def_var/as_type
+/prog/def_func/def_var/as_type/as_var_type
+/prog/def_func/def_var/as_type/as_var_type/type_number: "numero"
+/prog/def_func/def_var/assign
+/prog/def_func/def_var/assign/identifier: "longitud"
+/prog/def_func/def_var/assign/assign_value: ":="
+/prog/def_func/def_var/assign/expr_content
+/prog/def_func/def_var/assign/expr_content/func_call
+/prog/def_func/def_var/assign/expr_content/func_call/func_id
+/prog/def_func/def_var/assign/expr_content/func_call/func_id/identifier: "cadenaLongitud"
+/prog/def_func/def_var/assign/expr_content/func_call/op_par: "("
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/value
+/prog/def_func/def_var/assign/expr_content/func_call/expr_content/value/string: ""Hola""
+/prog/def_func/def_var/assign/expr_content/func_call/cl_par: ")"
+/prog/def_func/def_var/semi_colon: ";"
+/prog/def_func/block_end: "end"
+/prog/newline
+/prog/def_func
+/prog/def_func/func_kw: "function"
+/prog/def_func/identifier: "main"
+/prog/def_func/op_par: "("
+/prog/def_func/cl_par: ")"
+/prog/def_func/colon: ":"
+/prog/def_func/as_type
+/prog/def_func/as_type/type_void: "void"
+/prog/def_func/newline
+/prog/def_func/block_start: "begin"
+/prog/def_func/expr_total
+/prog/def_func/expr_total/expr_content
+/prog/def_func/expr_total/expr_content/func_call
+/prog/def_func/expr_total/expr_content/func_call/func_id
+/prog/def_func/expr_total/expr_content/func_call/func_id/identifier: "prueba"
+/prog/def_func/expr_total/expr_content/func_call/op_par: "("
+/prog/def_func/expr_total/expr_content/func_call/cl_par: ")"
+/prog/def_func/expr_total/semi_colon: ";"
+/prog/def_func/newline
+/prog/def_func/block_end: "end"
+/prog/newline
