@@ -1,0 +1,54 @@
+/***
+
+    @author: Antonio Moratilla
+    @description: Imprimir los números de fibonacci hasta pasar un umbral
+    @target: comprobar la sintaxis de un lenguaje
+
+    ***/
+
+include printflib;
+
+function main():void
+begin
+    numero umbral:=100;  //establecemos el umbral hasta el que calcularemos fibonacci
+    imprimir ("Iniciando el cálculo de Fibonacci");
+    cadena valores := fibonacci(umbral);  /*llamamos a la función, y a ver si explota...*/
+    imprimir (valores + "\nFin de fibonacci.");
+    //fin del /*programa*/
+end
+
+/**
+    Función iterativa que se encarga de calcular fibonacci y generar el texto asociado
+**/
+function fibonacci(numero umbral):cadena
+begin
+    numero numeroFibonacciInicio:=0;
+    numero numeroFibonacciSegundo:=1;
+    numero ResultadoFibonacci:=0;
+
+    cadena temporal := "Serie Fibonacci: " 
+                        + aCadena(numeroFibonacciInicio) 
+                        + ", " 
+                        + aCadena(numeroFibonacciSegundo);
+
+    while (ResultadoFibonacci<umbral)
+    begin
+        ResultadoFibonacci:=numeroFibonacciInicio
+                            + numeroFibonacciSegundo;
+        temporal := temporal + ", " + aCadena(ResultadoFibonacci);
+        numeroFibonacciInicio := numeroFibonacciSegundo;  //actualizo en cada iteración
+        numeroFibonacciSegundo := ResultadoFibonacci;
+    end
+
+    devolver(temporal); //devolvemos el resultado.
+end
+
+function imprimir(cadena texto):void
+begin
+    printf(texto);
+end
+
+function aCadena(numero x):cadena
+begin
+    devolver ( sprintf("%d",x));
+end
