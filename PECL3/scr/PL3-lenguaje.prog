@@ -1,0 +1,87 @@
+
+/*** Ejemplo de qué nos podemos encontrar en el lenguaje ****/
+
+
+
+function prueba():void
+begin
+    //Ifs que podemos tener
+    if (false) then
+        imprimir ("verdad");
+    else
+        imprimir ("falso");
+    endif
+
+    if (true) then  
+        imprimir ("verdad");
+        imprimir ("verdadera");
+    endif
+
+
+    //whiles que podemos tener
+    while (1>2 && 2<1)
+        hazAlgo();
+
+    while (1>2 || 1<2 && !true)
+    begin
+        hazAlgo();
+    end
+
+    //Fors que podemos tener (simplificado)
+    //siempre se crea variable
+    //la variable siempre es numérica
+    //step es opcional, con valor por defecto 1
+    numero beginer,ender,paso;
+    beginer:=1;
+    ender:=333;
+    paso:=10;
+    for case from 30 to 1 step -1 do
+        begin
+            for caso from beginer to 45 do
+                for casa from 43 to ender step paso do
+                    while(casa<50)
+                        imprimir("casa menor que 50");
+                enddo
+            enddo
+        end
+    enddo
+    forty:=40;
+
+    //funciones para ficheros
+    numero descriptorFichero;
+    cadena nombreFichero:="c:\temporal\fichero.txt";
+
+    descriptorFichero:=fopen(nombreFichero);
+    fwrite(descriptorFichero,"Este es el fichero " + nombreFichero);
+    fclose(descriptorFichero);
+
+    descriptorFichero:=fopen(nombreFichero);
+    cadena contenidoFichero:=freadAll(descriptorFichero);
+    print ("El fichero contiene: " + contenidoFichero);
+    fclose(descriptorFichero);
+
+    // funciones para Cadenas:
+    cadena ejemplo:="Esta es la cadena de ejemplo";
+    numero posicion;
+    posicion := cadenaDonde(ejemplo,"cadena");  //posicion tendrá el número 11 (base 0)
+    cadena cadenaConEspacios:="   Esto tiene espacios  ";
+    cadena cadenaSinEspacios:=cadenaSinEspacios(cadenaConEspacios); //contendrá "Esto tiene espacios";
+
+    cadena cadenaASustituir:="Voy a cambiar esta cadena";
+    cadena cadenaCambiada:=cadenaSustituida(cadenaASustituir,"cambiar","mantener"); //contendrá "Voy a mantener esta cadena"
+
+    cadena cadenaACortar:="vamos a cortar | en un punto de la cadena";
+    cadena cadenaI:= cadenaIzquierda(cadenaACortar,14); //Contendrá "vamos a cortar "
+    cadena cadenaD:= cadenaDerecha(cadenaACortar,16); //Contendrá " en un punto de la cadena"
+    cadena cadenaC:= cadenaDentro(cadenaACortar,15,1); //Contendrá "|"
+    numero longitud:= cadenaLongitud("Hola"); //Contendrá 4
+
+end
+
+function main():void
+begin
+    //Esta es la función principal
+    prueba();
+end
+
+
